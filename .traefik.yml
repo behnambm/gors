@@ -1,0 +1,20 @@
+displayName: Gors
+type: middleware
+
+import: github.com/behnambm/gors
+
+summary: A simple middleware to handle CORS
+
+testData:
+  Disabled: false
+  AllowedOrigins:
+    - "https://example.com"
+  AllowedHeaders:
+    - content-type
+  PreflightMaxAge: 3600
+  AllowedMethods:
+    - POST
+    - GET
+    - OPTIONS
+    - DELETE
+    - PUT
